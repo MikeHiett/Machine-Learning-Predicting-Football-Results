@@ -38,7 +38,7 @@ def predictResults(completedSeasons, currentSeason, nextWeek):
     
     #initialise the classifier
     print('Initialising the classifier')
-    clf = xgb.XGBClassifier(seed = 82)
+    clf = xgb.XGBClassifier(parameters)
     print('Training the classifier using results data')
     clf.fit(X_all, y_all)
     print('Making this weeks predictions')
