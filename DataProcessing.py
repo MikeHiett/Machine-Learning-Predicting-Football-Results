@@ -1,12 +1,6 @@
-#THIS IS MY OWN VERSION OF THE FOOTBALL RESULTS MACHINE LEARNING PREDICTION MODEL WHICH WILL PREDICT THE FOLLOWING GAMEWEEKS RESULTS 
-
 #The features being used for the prediction will be:
 # - Team Form ( last 5 results )
 # - Team form ( last 3 results )
-# - Goals scored in past 5 games
-# - Goals scored in past 3 games
-# - Goals conceded in past 5 games
-# - Goals conceded in past 3 games
 # - Difference in current league points
 # - Difference in current goal difference
 # - Home Team Home Win Percentage
