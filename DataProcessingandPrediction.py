@@ -13,7 +13,6 @@ import numpy as np
 import pandas as pd
 import urllib.request
 import xgboost as xgb
-from MachineLearningModel import predictResults
 #download the most recent version of the results data
 
 
@@ -408,9 +407,6 @@ print('TIME TO MAKE PREDICTIONS')
 completedSeasons = pd.read_csv('C:/Users/Michael/Desktop/FPLPredictionsWebsite/MachineLearningEPL/Bundesliga/CompletedSeasons.csv')
 
 #this is the prediction engine for the data
-
-import pandas as pd
-import xgboost as xgb
 
 def predictResults(completedSeasons, currentSeason, nextWeek):
     
